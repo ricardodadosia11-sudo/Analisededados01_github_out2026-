@@ -1,4 +1,8 @@
 valor_salario = float(input('Salario inicial: '))
+percentual = float(input('informe o digito para percentual: '))
+
+percentual = percentual / 100
+
 aumento_percentual  = int(input('informe o aumento percentual de aumento: '))
 
 valor_final = valor_salario * (valor_salario * aumento_percentual / 100)
